@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PORTFOLIO</title>
+  <link href='/style.css' rel='stylesheet'>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/284899584e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="goup"><a href="#">^</a></div>
+
+
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo.jpeg" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
+          <i class="fas fa-x" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="headerText">
+        <p>web developer</p>
+        <h1>hi, i am MOHAMMAD <span>ASAD</span> <br> ANSARI from India</h1>
+      </div>
+    </div>
+
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col1">
+          <img src="asad_amu.jpeg">
+        </div>
+        <div class="about-col2">
+          <h1>About Me</h1>
+          <p>I’m a passionate B.Tech student specializing in computer engineering, with a keen interest in embedded systems, robotics, web development, and AI/ML. I love creating innovative projects using Arduino, designing responsive websites, and developing intelligent systems that solve real-world problems. With a strong foundation in Python, C, and Java, I’m always eager to learn and expand my skill set. Currently, I’m working on enhancing my knowledge of machine learning and automation, aiming to bring creative solutions to the tech industry.</p>
+          <div class="tabTitles">
+            <p class="tabLinks activeLink" onclick="openTab('skills')">Skill</p>
+            <p class="tabLinks" onclick="openTab('experience')">Experience</p>
+            <p class="tabLinks" onclick="openTab('education')">Education</p>
+
+          </div>
+          <div class="tabContents activeTab" id="skills">
+            <ul>
+              <li><span>web development</span><br>web app development</li>
+              <li><span>AI/ML</span><br>artificial intelligence and machine learning</li>
+              <li><span>python</span><br>python programmer</li>
+            </ul>
+          </div>
+          <div class="tabContents" id="experience">
+            <ul>
+              <li><span>2024</span><br>team member in precision agriculture monitoring project</li>
+              <li><span>2024</span><br>frontend developer in restaurant app project</li>
+              
+            </ul>
+          </div>
+          <div class="tabContents" id="education">
+            <ul>
+              <li><span>2024-2028</span><br>B.Tech in Computer Engineering</li>
+              <li><span>2022-2023</span><br>XII with computer as a subject</li>
+              <li><span>2020-2021</span><br>X with computer as a side subject</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="services">
+    <div class="container">
+      <h1 class="subTitle">My Services</h1>
+      <div class="servicesList">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          
+          <h2>web designer</h2>
+          <p>As a web designer, I specialize in creating responsive, user-friendly websites using HTML, CSS, and JavaScript. I focus on clean, visually appealing designs and interactive elements that ensure seamless user experiences across all devices. My goal is to deliver functional, efficient, and engaging web solutions.</p>
+          <a href="">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-microchip"></i>
+          <h2>Arduino Programmer</h2>
+          <p>As an Arduino programmer and robotics prototypist, I design and develop embedded systems using Arduino for various robotic applications. I integrate sensors, motors, and controllers to build functional prototypes, focusing on automation, efficiency, and real-time performance. My projects aim to create innovative, reliable solutions for robotics systems.</p>
+          <a href="">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-hexagon-nodes"></i>
+          <h2>AI/ML</h2>
+          <p>As an AI and machine learning enthusiast, I specialize in developing intelligent systems using Python and popular ML frameworks. I focus on creating algorithms for data analysis, prediction, and automation, applying machine learning techniques to solve real-world problems and optimize performance across various applications.</p>
+          <a href="">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="subTitle">My Work</h1>
+    <div class="workList">
+      <div class="work">
+        <img src="obstacleAvoider.jpg">
+        <div class="layer">
+          <h3>Obstacle Avoider</h3>
+          <p>Developed a fully functional obstacle avoidance system using an Arduino Uno, a motor driver shield, and an HC-SR04 ultrasonic sensor. Designed and implemented the code independently to control the motors and servo for real-time obstacle detection and navigation. The project effectively demonstrates skills in embedded systems, sensor integration, and microcontroller programming.</p>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </div>
+      </div>
+      <div class="work">
+        <img src="todo.PNG">
+        <div class="layer">
+          <h3>ToDo list</h3>
+          <p>Created an interactive to-do list application using JavaScript, HTML, and CSS. The project features dynamic task management, including prioritizing, adding, editing, and deleting tasks, with a clean and user-friendly interface. Demonstrates proficiency in front-end development, DOM manipulation, and responsive design principles.</p>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+  </div>
+<!-- -------------------contact---------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contactLeft">
+          <h1 class="subTitle">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i>md12asad9@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>9260933211</p>
+          <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contactRight">
+          <form name="submit-to-google-sheet">
+            <input id="name" autocomplete="on" type="text" name="Name" placeholder="yourname" required>
+            <input id="email" autocomplete="on" type="email" name="email" placeholder="your email" required>
+            <textarea autocomplete="on" name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; Asad. All rights reserved.</p>
+    </div>
+</div>
+
+<script defer type="text/javascript" src="/main.js"></script>
+</body>
+</html>
